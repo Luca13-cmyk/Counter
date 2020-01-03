@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3.8
+
 from sys import argv
 from collections import Counter
 
@@ -33,4 +35,6 @@ else:
                 target = str(input("Digite o texto: "))
                 show_result(args, target)
                 count = 1
+    else:
+        show_result(args, target)
 
